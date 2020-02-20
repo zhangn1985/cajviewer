@@ -1,0 +1,15 @@
+#!/usr/bin/make -f
+
+# Uncomment this to turn on verbose mode.
+#export DH_VERBOSE=1
+
+include /usr/share/dpkg/pkg-info.mk
+
+override_dh_auto_clean:
+	@make clean DESTDIR=debian/tmp
+
+override_dh_auto_install:
+	@make install DESTDIR=debian/tmp
+
+%:
+	dh $@

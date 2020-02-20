@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<mime-info xmlns='http://www.freedesktop.org/standards/shared-mime-info'>
+    <mime-type type="application/caj">
+        <comment>CAJ file type</comment>
+        <glob pattern="*.caj"/>
+    </mime-type>
+    <mime-type type="application/kdh">
+        <comment>KDH file type</comment>
+        <glob pattern="*.kdh"/>
+    </mime-type>
+<mime-type type="application/nh">
+        <comment>NH file type</comment>
+        <glob pattern="*.nh"/>
+    </mime-type>
+<mime-type type="application/teb">
+        <comment>TEB file type</comment>
+        <glob pattern="*.teb"/>
+    </mime-type>
+</mime-info>

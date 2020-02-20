@@ -1,0 +1,19 @@
+Source: cajviewer
+Section: office
+Priority: optional
+Maintainer: Zhang Ning <zhangn1985@XYZ.com>
+Uploaders: Zhang Ning <zhangn1985@XYZ.com>
+Standards-Version: 4.1.4
+Build-Depends:
+ debhelper (>= 11),
+Homepage: http://cajviewer.cnki.net/
+
+
+Package: cajviewer
+Section: office
+Architecture: amd64
+Depends:
+ ${shlibs:Depends},
+Multi-Arch: same
+Description: CAJViewer
+ This package is repackage of official CAJviewer

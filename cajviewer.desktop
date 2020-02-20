@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=CAJViewer
+Comment=CAJViewer for Linux
+Icon=/usr/share/icons/cajviewer.png
+Categories=Office;
+MimeType=application/caj;application/kdh;application/nh;application/teb;
+Exec=cajviewer
+X-AppImage-Version=
