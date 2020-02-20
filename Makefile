@@ -1,4 +1,4 @@
-ARCH ?= x86_64
+ARCH ?= amd64
 
 all:
 
