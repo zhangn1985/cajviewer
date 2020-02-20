@@ -1,3 +1,5 @@
+ARCH ?= x86_64
+
 all:
 
 install:
@@ -6,8 +8,8 @@ install:
 	mkdir -p ${DESTDIR}/usr/share/mime/application/
 	mkdir -p ${DESTDIR}/usr/share/icons/
 	mkdir -p ${DESTDIR}/usr/share/applications/
-	install -m755 cajviewer ${DESTDIR}/usr/bin/cajviewer
-	install -m644 libreaderex_x64.so ${DESTDIR}/usr/lib/libreaderex_x64.so
+	install -m755 ${ARCH}/cajviewer ${DESTDIR}/usr/bin/cajviewer
+	install -m644 ${ARCH}/libreaderex_x64.so ${DESTDIR}/usr/lib/libreaderex_x64.so
 	install -m644 cnki-caj.xml ${DESTDIR}/usr/share/mime/application/cnki-caj.xml
 	install -m644 cajviewer.png ${DESTDIR}/usr/share/icons/cajviewer.png
 	install -m644 cajviewer.desktop ${DESTDIR}/usr/share/applications/cajviewer.desktop

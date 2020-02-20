@@ -5,11 +5,13 @@
 
 include /usr/share/dpkg/pkg-info.mk
 
+DEB_HOST_ARCH      ?= $(shell dpkg-architecture -qDEB_HOST_ARCH)
+
 override_dh_auto_clean:
 	@make clean DESTDIR=debian/tmp
 
 override_dh_auto_install:
-	@make install DESTDIR=debian/tmp
+	@make install DESTDIR=debian/tmp ARCH=${DEB_HOST_ARCH}
 
 %:
 	dh $@

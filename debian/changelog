@@ -1,3 +1,10 @@
+cajviewer (1.0.0-1) unstable; urgency=medium
+
+  * fix files premission
+  * add arm64
+
+ -- Zhang Ning  <Zhangn1985@XYZ.com>  Thu, 20 Feb 2020 21:45:02 +0200
+
 cajviewer (1.0) unstable; urgency=medium
 
   * first release.

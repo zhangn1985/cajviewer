@@ -11,7 +11,7 @@ Homepage: http://cajviewer.cnki.net/
 
 Package: cajviewer
 Section: office
-Architecture: amd64
+Architecture: amd64 arm64
 Depends:
  ${shlibs:Depends},
 Multi-Arch: same
