@@ -9,6 +9,6 @@ sudo make install
 ## build as deb
 
 ```
-sudo apt install debhelper
+sudo apt install devscripts
 debuild -i -us -uc -b
 ```
