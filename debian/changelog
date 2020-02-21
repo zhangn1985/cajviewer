@@ -1,3 +1,10 @@
+cajviewer (1.0.0-2) unstable; urgency=medium
+
+  * split packages
+  * strip elf
+
+ -- Zhang Ning  <Zhangn1985@XYZ.com>  Fri, 21 Feb 2020 21:45:02 +0200
+
 cajviewer (1.0.0-1) unstable; urgency=medium
 
   * fix files premission
