@@ -1,3 +1,9 @@
+cajviewer (1.0.0-3) unstable; urgency=medium
+
+  * add mips64el, Loongson
+
+ -- Zhang Ning  <Zhangn1985@XYZ.com>  Tue, 21 Apr 2020 21:45:02 +0200
+
 cajviewer (1.0.0-2) unstable; urgency=medium
 
   * split packages
