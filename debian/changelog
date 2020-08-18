@@ -1,3 +1,9 @@
+cajviewer (1.0.0-4) unstable; urgency=medium
+
+  * Lintian issue fixes
+
+ -- Zhang Ning  <Zhangn1985@XYZ.com>  Tue, 18 Aug 2020 13:00:02 +0200
+
 cajviewer (1.0.0-3) unstable; urgency=medium
 
   * add mips64el, Loongson
