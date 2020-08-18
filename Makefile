@@ -5,12 +5,12 @@ all:
 install:
 	mkdir -p ${DESTDIR}/usr/bin/
 	mkdir -p ${DESTDIR}/usr/lib/
-	mkdir -p ${DESTDIR}/usr/share/mime/application/
 	mkdir -p ${DESTDIR}/usr/share/icons/
 	mkdir -p ${DESTDIR}/usr/share/applications/
+	mkdir -p ${DESTDIR}/usr/share/mime/packages/
 	install -m755 ${ARCH}/cajviewer ${DESTDIR}/usr/bin/cajviewer
 	install -m644 ${ARCH}/libreaderex_x64.so ${DESTDIR}/usr/lib/libreaderex_x64.so
-	install -m644 cnki-caj.xml ${DESTDIR}/usr/share/mime/application/cnki-caj.xml
+	install -m644 cnki-caj.xml ${DESTDIR}/usr/share/mime/packages/
 	install -m644 cajviewer.png ${DESTDIR}/usr/share/icons/cajviewer.png
 	install -m644 cajviewer.desktop ${DESTDIR}/usr/share/applications/cajviewer.desktop
 	mkdir -p ${DESTDIR}/opt/cajviewer/

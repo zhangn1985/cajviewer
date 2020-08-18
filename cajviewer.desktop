@@ -2,8 +2,10 @@
 Type=Application
 Name=CAJViewer
 Comment=CAJViewer for Linux
-Icon=/usr/share/icons/cajviewer.png
+TryExec=cajviewer
+Exec=cajviewer %U
+Icon=cajviewer
+StartupNotify=true
+Terminal=false
 Categories=Office;
-MimeType=application/caj;application/kdh;application/nh;application/teb;
-Exec=cajviewer
-X-AppImage-Version=
+MimeType=application/cnki.caj;application/cnki.kdh;application/cnki.nh;application/cnki.teb;

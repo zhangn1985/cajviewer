@@ -1,18 +1,18 @@
 <?xml version="1.0"?>
 <mime-info xmlns='http://www.freedesktop.org/standards/shared-mime-info'>
-    <mime-type type="application/caj">
+    <mime-type type="application/cnki.caj">
         <comment>CAJ file type</comment>
         <glob pattern="*.caj"/>
     </mime-type>
-    <mime-type type="application/kdh">
+    <mime-type type="application/cnki.kdh">
         <comment>KDH file type</comment>
         <glob pattern="*.kdh"/>
     </mime-type>
-<mime-type type="application/nh">
+<mime-type type="application/cnki.nh">
         <comment>NH file type</comment>
         <glob pattern="*.nh"/>
     </mime-type>
-<mime-type type="application/teb">
+<mime-type type="application/cnki.teb">
         <comment>TEB file type</comment>
         <glob pattern="*.teb"/>
     </mime-type>
