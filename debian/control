@@ -15,8 +15,7 @@ Architecture: amd64 arm64 mips64el
 Depends:
  ${shlibs:Depends},
  cajviewer-resource
-Multi-Arch: same
-Description: CAJViewer
+Description: official CAJViewer repack: executable binaries
  This package is repackage of official CAJviewer.
  provides executable binaries.
 
@@ -24,6 +23,6 @@ Package: cajviewer-resource
 Section: office
 Architecture: all
 Depends:
-Description: CAJViewer Resources
+Description: official CAJViewer repack: resources
  This package is repackage of official CAJviewer.
  provides Resources.
