@@ -13,8 +13,8 @@ install:
 	install -m644 cnki-caj.xml ${DESTDIR}/usr/share/mime/packages/
 	install -m644 cajviewer.png ${DESTDIR}/usr/share/icons/cajviewer.png
 	install -m644 cajviewer.desktop ${DESTDIR}/usr/share/applications/cajviewer.desktop
-	mkdir -p ${DESTDIR}/opt/cajviewer/
-	cp -r Resource ${DESTDIR}/opt/cajviewer/
+#	mkdir -p ${DESTDIR}/opt/cajviewer/
+#	cp -r Resource ${DESTDIR}/opt/cajviewer/
 
 clean:
 	rm -f ${DESTDIR}/usr/bin/cajviewer
